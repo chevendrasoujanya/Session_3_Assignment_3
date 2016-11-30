@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Session 3 | Assignment 3</title>
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="personal-details">
+		<form method="get">
+			<h4>Step 1: Your details</h4>
+			<table class="form-fields-table">				
+				<tr class="form-field-row">
+					<td>Name:</td>
+					<td><input type="text" name="name"></td>
+				</tr>
+
+				<tr class="form-field-row">
+					<td>Email:</td>
+					<td><input type="email" name="email"></td>
+				</tr>
+
+				<tr class="form-field-row">
+					<td>Phone:</td>
+					<td><input type="tel" name="telephone"></td>
+				</tr>
+			</table>
+			
+			
+			<h4>Step 1: Delivery address</h4>
+			<table class="form-fields-table">				
+				<tr class="form-field-row">
+					<td>Address:</td>
+					<td><textarea name="address" rows="5"></textarea></td>
+				</tr>
+
+				<tr class="form-field-row">
+					<td>Post Code:</td>
+					<td><input type="number" name="postcode" maxlength="6"></td>
+				</tr>
+
+				<tr class="form-field-row">
+					<td>Country:</td>
+					<td><input type="text" name="country"></td>
+				</tr>
+			</table>
+			
+			<h4>Step 1: Card details</h4>
+			<table class="form-fields-table">				
+				<tr class="form-field-row">
+					<td>Card Type:</td>
+					<td>
+						<ul id="card-type-list">
+							<li><input type="radio" name="card-type"><i class="fa fa-cc-visa card-icons"></i>&nbsp; VISA</li>
+							<li><input type="radio" name="card-type"><i class="fa fa-cc-amex card-icons"></i>&nbsp; AmEx</li>
+							<li><input type="radio" name="card-type"><i class="fa fa-cc-mastercard card-icons"></i>&nbsp; Mastercard</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<table>
+				<tr class="form-field-row">
+					<td>Card Number:</td>
+					<td><input type="text" name="card-number" maxlength="16"></td>
+				</tr>
+
+				<tr class="form-field-row">
+					<td>Security Code:</td>
+					<td><input type="password" name="security-code"></td>
+				</tr>
+
+				<tr class="form-field-row">
+					<td>Name on Card:</td>
+					<td><input type="text" name="card-name"></td>
+				</tr>
+
+			</table>
+			<button class="btn buy-it-btn">BUY IT!</button>
+		</form>
+	</div>
+</body>
+</html>

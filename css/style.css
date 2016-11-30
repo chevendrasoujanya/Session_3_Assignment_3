@@ -1,0 +1,116 @@
+/* Session 3 - Assignment 1 Related CSS */
+table#calling-committee-details {
+	border: 1px solid #222;
+}
+
+table#calling-committee-details tr th {
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #222;
+	font-weight: bold;
+}
+
+table#calling-committee-details tr td {
+	padding: 5px;
+	border: 1px solid #222;
+	text-align: left;
+}
+
+table#calling-committee-details tr:nth-child(2) td {
+	font-weight: bold;
+}
+
+/* Session 3 - Assignment 3 Related CSS */
+div.personal-details {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #eee;
+	border-radius: 2px;
+	background: url('../images/background.jpg') no-repeat;
+	width: 500px;
+	padding: 25px;
+	background-size: 100% 100%;
+}
+
+tr.form-field-row td {
+	border: 1px solid #e0ffff;
+	padding: 10px;
+	background-color: #a4bfda;
+}
+
+tr.form-field-row td:first-child {
+	width: 120px;
+}
+
+tr.form-field-row td:nth-child(2) {
+	width: 328px;
+}
+
+ul#card-type-list li {
+	list-style-type: none;
+}
+
+i.card-icons {
+	color: #35373a;
+}
+
+tr.form-field-row input[type=text], tr.form-field-row input[type=email], tr.form-field-row input[type=tel], tr.form-field-row input[type=number], tr.form-field-row input[type=password] {
+    width: 320px;
+    height: 25px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    padding: 0 5px;
+}
+
+tr.form-field-row textarea {
+	width: 320px;
+    border: 1px solid #eee;
+    border-radius: 3px;	
+    padding: 0 5px;
+}
+
+button.btn.buy-it-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border-radius: 25px;
+    border: 1px solid #eee;
+    background: #222;
+    color: gray;
+    padding: 5px 8px;
+}
+
+/* Session 3 - Assignment 2 Related CSS */
+section.wordpress-theme {
+	width: 500px;
+	border: 1px solid #eee;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section.top-menubar {
+    min-height: 50px;
+    background: #2f2d2d;
+}
+
+section.logo {
+	text-align: center;
+}
+
+section.content {
+	text-align: center;
+}
+
+img#w-logo {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	top: 12px;
+}
+
+section.content input[type=text] {
+    height: 30px;
+}
